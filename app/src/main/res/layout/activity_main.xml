@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/openTestSuite"
+        android:layout_marginTop="100dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="TEST SUITE"
+        android:padding="10dp"
+        android:background="@color/AMRNativeAdBodyColor"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadInterstitial"
+        app:layout_constraintTop_toBottomOf="@id/openTestSuite"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="LOAD INTERSTITIAL"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@color/AMRNativeAdBodyColor"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showInterstitial"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/loadInterstitial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="SHOW INTERSTITIAL"
+        android:padding="10dp"
+        android:background="@color/AMRNativeAdBodyColor"
+        android:textColor="@color/white"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/loadRewarded"
+        app:layout_constraintTop_toBottomOf="@id/showInterstitial"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="LOAD REWARDED"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@color/AMRNativeAdBodyColor"
+        android:textColor="@color/white"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/showRewarded"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/loadRewarded"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:text="SHOW REWARDED"
+        android:padding="10dp"
+        android:background="@color/AMRNativeAdBodyColor"
+        android:textColor="@color/white"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
